@@ -1,9 +1,9 @@
-# This file contains 
+# This file pritns the color code manual
 import color_code_handler
 from constants import NUMBER_OF_PAIRS
 
 
-def print_color_code_table():
+def print_color_code_manual():
     row_format = "{:>15}" * (3)
     table_headers = ["Pair number", "Major Color", "Minor Color"]
     print(row_format.format("","25-Pair Color Code",""))
@@ -13,4 +13,4 @@ def print_color_code_table():
         print(row_format.format(i, *color_pair))
 
 if __name__ == '__main__':
-    print_color_code_table()
+    print_color_code_manual()
