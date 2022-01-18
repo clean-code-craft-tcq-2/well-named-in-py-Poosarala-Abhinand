@@ -1,4 +1,5 @@
 # This file contains methods to retrieve information about color and pair number
+import exception_handler
 from constants import MAJOR_COLORS, MINOR_COLORS
 
 def get_color_from_pair_number(pair_number):
